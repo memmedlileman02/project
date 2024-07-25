@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.navbar img{
+    width: 65px; 
+    height: 65px;
+    margin:18px 150px ;  
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul{
+    display: flex;
+    gap: 30px;
+    padding-top: 37.5px;
+}
+.navbar ul li a{
+    color: #0F1416;
+}
+.buton{
+    margin-top: 20px;
+    width: 98px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #35AFF4;
+    background-color: white;
+}
+.buton a{
+    padding: 20px;
+    color: #35AFF4;
+}
+.buton1{
+    margin-top: 20px;
+    width: 98px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px;
+    background-color:#35AFF4;
+    margin-right: 100px;
+}
+.buton1  a{
+    padding: 20px;
+    color: white;
+}
+.container1{
+    background-color: #35AFF41A;
+}
+.nav{
+    height: 62px;
+}
+.nav ul{
+    display: flex;
+    gap: 5px;
+    padding-top: 20px;
+    padding-left: 150px;
+}
+.nav i{
+    width: 20px;
+    height: 20px;
+}
+.nav ul li a{
+    color: #0F1416;
+}
+.mains{
+    background-image: url(sekil1/Rectangle\ 6\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    padding-top: 20px;
+    width: 100%;
+}
+.mainn h2{
+    padding: 350px 150px ;
+    font-size: 60px;
+    color: #FFFFFF;
+    line-height: 80px;
+}
+
+
+.cards{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-bottom: 60px;
+    margin-left: 150px;
+}
+.card {
+    display: flex;
+    flex-wrap: wrap;
+}
+.kart img{
+    width: 300px;
+    height: 300px;
+    margin-top: 60px;
+}
+.kart p{
+    line-height: 30px;
+}
+.kart button{
+    background-color:  #FFCA011A;
+    width:  59px;
+    height: 26px;
+    border-radius: 8px;
+    border: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+.kart button i{
+    width: 15px;
+    height: 15px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+.kart button p{
+    padding-right: 10px;
+}
+
+
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.son img{
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 65px; 
+    height: 65px;
+}
+.icon1{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.icon1 i{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.icon1 p{
+    margin-top: 20px;
+    padding-right: 120px;
+}
+.icon2{
+    display: flex;
+    justify-content: space-between;
+}
+.icon2 i{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.icon2 p{
+    margin-top: 20px;
+    padding-right: 85px;
+}
+.icon3{
+    display: flex;
+    justify-content: space-between;
+}
+.icon3 i{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.icon3 p{
+    margin-top: 20px;
+    padding-left: 15px;
+} 
+.footer div {
+    flex: 1;
+}
+.footer div:first-child {
+    flex: 1.5;
+}
+.footer h3 {
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.footer ul {
+     list-style: none; 
+     line-height: 30px;
+}
+.footer ul li {
+    margin: 10px 0;
+    margin-left: 50px;
+}
+.footer .son{
+    display: flex;
+    flex-direction: column;
+}
+.footer .son div {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.ft{
+    display: flex; 
+    justify-content: space-between;
+}
+.ft p{
+    padding: 20px 170px;
+}
+.icons{
+    padding-right: 100px;
+}
+.icons i{
+    padding: 20px 10px;
+    font-size: 15px;
+}
